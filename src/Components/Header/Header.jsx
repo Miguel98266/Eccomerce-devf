@@ -69,7 +69,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link to="/products" className="header__item-link">
-                  Lista de productos
+                  Productos
                 </Link>
               </li>
               {isAuth ? (<>

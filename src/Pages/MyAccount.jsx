@@ -40,12 +40,15 @@ export const MyAccount = () => {
           <h3 className="title">Mi Cuenta</h3>
           <h4>Información de {user?.role === "ADMIN" ? `Admin` : `Cliente`}</h4>
           {userData?.first_name && (
-            <p className="first_name">{userData.first_name}</p>
+            <p className="first_name">Nombre: {userData.first_name}</p>
           )}
           {userData?.last_name && (
-            <p className="last_name">{userData.last_name}</p>
+            <p className="last_name">Apellido: {userData.last_name}</p>
           )}
-          {userData?.email && <p className="Email">{userData.email}</p>}
+          {userData?.gender && (
+            <p className="last_name">Genero: {userData.gender}</p>
+          )}
+          {userData?.email && <p className="Email"> Correo: {userData.email}</p>}
           <Link to="/updateuser" className="link-edit">
             Editar
           </Link>

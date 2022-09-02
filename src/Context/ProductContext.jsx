@@ -31,7 +31,7 @@ function ProductProvider(props) {
   
   useEffect(() => {
     getProductsData();
-    // eslint-disable-next-line
+   
   }, []);
   const value = {
     products,
