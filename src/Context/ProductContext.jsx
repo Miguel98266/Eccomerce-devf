@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect, useContext } from "react";
-import { ecomerceApi } from "../API/eccomerce";
+import { ecomerceApi } from "@/API/eccomerce";
 
 const ProductContext = createContext();
 

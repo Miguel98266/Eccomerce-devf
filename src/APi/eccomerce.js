@@ -13,7 +13,7 @@ const RegisterUser = (data) => axios.post(`${BaseURL}/signup`, data);
 const getSingleUser = (id) => axios.get(`${BaseURL}/user/${id}`, config);
 
 const Createproduct = (data) =>
-  axios.post(`${BaseURL}/item`,data, {
+  axios.post(`${BaseURL}/item`, data, {
     headers: { Authorization: `JWT ${token}` },
   });
 
