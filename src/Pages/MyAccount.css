@@ -1,0 +1,33 @@
+.link-edit{
+    color: #8c52ff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.link-edit:hover{
+    color: #8c52ff;
+    border-bottom: solid 2px #8c52ff;
+}
+
+.link-myaccount{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #8C52FF;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+}
+.active{
+    background-color: #ffffff;
+    color: #8C52FF;
+    border: 1px solid #8C52FF;
+}
+.link-myaccount:hover{
+        color: white;
+        background-color: #794ad8;
+}

@@ -1,0 +1,30 @@
+.link{
+    width: 100%;
+    padding: 1rem;
+    background-color: #8C52FF;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+}
+.link:hover{
+        color: white;
+        background-color: #794ad8;
+}
+.justify{
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.nuevos-clientes{
+    border-left: 2px solid #794ad8;
+    padding-left: 2rem;
+}
+.title{
+    border-bottom: 0.5px solid #a386db;
+    margin-bottom: 1rem;
+}
+.obligatorios{
+    color: red;
+}

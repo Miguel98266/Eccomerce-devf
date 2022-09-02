@@ -1,0 +1,9 @@
+export { Home } from "./Home";
+export { SingleProduct } from "./SingleProduct";
+export { ListProducts } from "./ListProducts";
+export { SharedLayout } from "./SharedLayout";
+export { NotFound } from "./NotFound";
+export { Login } from "./Login";
+export { Register } from "./Register";
+export { MyAccount } from "./MyAccount";
+export { Addproduct } from "./Addproduct";

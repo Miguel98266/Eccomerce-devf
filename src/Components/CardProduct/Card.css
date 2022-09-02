@@ -1,0 +1,10 @@
+.color-primary{
+    background-color: #6AA4D9;
+    color: white;
+    font-weight: 700;
+}
+.imagen-card {
+    max-width: 100%;
+    display: block;
+    max-height: 210px;
+  }
