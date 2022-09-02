@@ -11,7 +11,7 @@ export const Addproduct = () => {
     try {
       const result = await Createproduct(data);
 
-      if(result.status === 200) {
+      if(result.status === 201) {
         navigate('/products')
       }
     } catch (error) {
@@ -90,12 +90,12 @@ export const Addproduct = () => {
           <option value='Seleccionar Categoria' disabled>
           Seleccionar Categoria
           </option>
-          <option value='Mujer'>Mujer</option>
-          <option value='Hombre'>Hombre</option>
-          <option value='Juguetes'>Juguetes</option>
-          <option value='Ropa'>Ropa</option>
-          <option value='ninios'>Niños</option>
-          <option value='tenis'>Tenis</option>
+          <option value='Books'>Libros</option>
+          <option value='Movies'>Peliculas</option>
+          <option value='Music'>Musica</option>
+          <option value='Electronics'>Electronicos</option>
+          <option value='Kids'>Niños</option>
+          <option value='Shoes'>Tenis</option>
         </select>
       </div>
       <div className='mb-3 input-register me-3'>
